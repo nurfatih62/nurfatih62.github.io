@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo-block {
+    display: inline-block;
+    padding: 20px;
+    background-color: transparent;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 10px;
+}
+
+.logo-block:hover {
+    background-color: gray;
+    transform: scale(1.1);
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+}

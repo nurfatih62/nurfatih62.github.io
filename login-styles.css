@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('login.jpg') no-repeat center center fixed;
+    background-size: cover; /* Menyimpan gambar latar belakang di seluruh layar */
+}
+
+.login-container {
+    background: rgba(224, 224, 224, 0.7); /* Abu-abu muda dengan transparansi */
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    backdrop-filter: blur(10px); /* Efek blur pada latar belakang kotak */
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+}

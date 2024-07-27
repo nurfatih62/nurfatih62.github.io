@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Page</title>
+    <link rel="stylesheet" href="menu-styles.css">
+</head>
+<body>
+    <header>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+    </header>
+    <div id="menu" class="menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+    <main>
+        <div class="welcome-box">
+            <h1>Welcome to the Menu Page</h1>
+        </div>
+        <section class="profile-list">
+            <h2>Daftar Profil</h2>
+            <div class="profile-section">
+                <h2>Profil Kelas</h2>
+                <div class="profile-item">
+                    <p><strong>Kelas:</strong> X-A</p>
+                    <p><strong>Wakil Ketua:</strong> John Doe</p>
+                    <p><strong>Semester 1:</strong> 2023</p>
+                    <p><strong>Bendahara:</strong> Jane Smith</p>
+                </div>
+            </div>
+            
+        </section>
+        <section class="photo-gallery">
+            <h2>Kumpulan Foto</h2>
+            <div class="gallery">
+                <img src="photo1.jpg" alt="Foto 1">
+                <img src="photo2.jpg" alt="Foto 2">
+                <img src="photo3.jpg" alt="Foto 3">
+                <!-- Tambahkan foto lainnya sesuai kebutuhan -->
+            </div>
+        </section>
+    </main>
+    <script src="menu.js"></script>
+</body>
+</html>
